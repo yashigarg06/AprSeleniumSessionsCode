@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OpenCartTestNG Regression Suite" verbose="4">
+   <test name="HomePage Test">
+   <parameter name="url" value="https://naveenautomationlabs.com/opencart/"/>
+       <classes>
+           <class name="myTest.OpenCartHomePageTest" />
+       </classes>
+   </test>
+   
+   <test name="ShoppingCart Test">
+   <parameter name="url" value="https://naveenautomationlabs.com/opencart/"/>
+       <classes>
+           <class name="myTest.ShoppingCartTest" />
+       </classes>
+   </test>
+   
+  
+</suite>
